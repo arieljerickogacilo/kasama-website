@@ -34,35 +34,35 @@ const PARTNER_COMPANIES = [
 const BUILD_PARTNERS = [
   {
     name: "Salsify",
-    image: ""
+    image: "images/build-partners/salsify.png"
   },
   {
     name: "Klaviyo",
-    image: ""
+    image: "images/build-partners/klaviyo.png"
   },
   {
     name: "Pipe 17",
-    image: ""
+    image: "images/build-partners/pipe 17.png"
   },
   {
     name: "Avalara",
-    image: ""
+    image: "images/build-partners/avalara.png"
   },
   {
     name: "Yotpo",
-    image: ""
+    image: "images/build-partners/yotpo.png"
   },
   {
     name: "MuleSoft",
-    image: ""
+    image: "images/build-partners/mulesoft.png"
   },
   {
     name: "OrderGroove",
-    image: ""
+    image: "images/build-partners/ordergroove.png"
   },
   {
     name: "Bloomreach",
-    image: ""
+    image: "images/build-partners/bloomreach.png"
   },
   {
     name: "Algolia",
@@ -70,11 +70,11 @@ const BUILD_PARTNERS = [
   },
   {
     name: "Rewind",
-    image: ""
+    image: "images/build-partners/rewind.png"
   },
   {
     name: "Reactiv",
-    image: ""
+    image: "images/build-partners/reactiv.png"
   },
 ]
 
@@ -125,17 +125,17 @@ export default function Partners() {
           src="images/leaf.png"
         />
         <Stack
-          width={{base: "100%", lg: "80%"}}
+          width={{ base: "100%", lg: "80%" }}
           p={{ base: 4, lg: "0 8rem" }}
           mt={{ base: "4rem", lg: "4rem" }}
           gap={{ base: "2rem", lg: "2rem" }}
         >
           <Divider borderColor="#213047" />
           <Text fontSize={{ base: "24px", lg: "36px" }}>Top Commerce Partners</Text>
-          <SimpleGrid 
-            alignSelf="center" 
-            columns={{ base: 1, lg: 2 }} 
-            spacing={{ base: "4rem", lg: "2rem" }} 
+          <SimpleGrid
+            alignSelf="center"
+            columns={{ base: 1, lg: 2 }}
+            spacing={{ base: "4rem", lg: "2rem" }}
             mt="2rem" mb="4rem"
           >
             {PARTNER_COMPANIES.map((item, key) => (
@@ -144,7 +144,7 @@ export default function Partners() {
           </SimpleGrid>
         </Stack>
         <Stack
-          width={{base: "100%", lg: "80%"}}
+          width={{ base: "100%", lg: "80%" }}
           p={{ base: 4, lg: "0 8rem" }}
           mt={{ base: 0, lg: "4rem" }}
           gap={{ base: "2rem", lg: "2rem" }}
@@ -183,9 +183,9 @@ export default function Partners() {
             border="1px black solid"
             padding="0.75rem 2.5rem"
             textAlign="center"
-            width={{base: "100%", lg: "20%"}}
+            width={{ base: "100%", lg: "20%" }}
             _hover={{
-              backgroundColor:"rgba(31, 31, 31, 1)",
+              backgroundColor: "rgba(31, 31, 31, 1)",
               color: "#fff"
             }}
           >Contact Us</Box>
