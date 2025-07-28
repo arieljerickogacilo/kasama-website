@@ -2,8 +2,12 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "@/styles/globals.css";
 import { ChakraProvider, Container, Stack } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+  const hideLayout = router.pathname === "/admin/blog-generator";
+
   return (
     <ChakraProvider>
       <Container
@@ -13,9 +17,9 @@ export default function App({ Component, pageProps }) {
         as={Stack}
         gap={0}
       >
-        <Header />
+        {!hideLayout && <Header />}
         <Component {...pageProps} />
-        <Footer mt="auto" />
+        {!hideLayout && <Footer mt="auto" />}
       </Container>
     </ChakraProvider>
   )

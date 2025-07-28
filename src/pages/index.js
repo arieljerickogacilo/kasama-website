@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace("/careers"); // use replace to avoid keeping "/" in history
+    router.replace("/about"); // use replace to avoid keeping "/" in history
   }, [router]);
 
   return (

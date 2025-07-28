@@ -1,3 +1,5 @@
+'use client';
+
 import { Flex, Image, Box, useDisclosure, } from "@chakra-ui/react";
 import {
   Drawer,
@@ -10,8 +12,12 @@ import {
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const NavLink = ({ link, close, children, ...props }) => {
+  const pathname = usePathname();
+  const isActive = pathname === link;
+
   return (
     <Link passHref href={link}>
       <Box
@@ -20,6 +26,8 @@ const NavLink = ({ link, close, children, ...props }) => {
         color="#213047"
         fontSize={{ base: "32px", lg: "18px" }}
         fontFamily={{ base: "'Libre Baskerville', sans-serif", lg: "'Space Grotesk', sans-serif" }}
+        textDecoration={isActive ? "underline" : "none"}
+        fontWeight={isActive ? "bold" : "normal"}
         cursor="pointer"
         _hover={{
           textDecoration: "underline",
@@ -36,6 +44,8 @@ function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const {isOpen, onOpen, onClose} = useDisclosure();
+
+
 
   useEffect(() => {
     if(!isDrawerOpen){
