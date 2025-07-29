@@ -48,11 +48,12 @@ export default function Work() {
         >Our Work</Text>
         <Text
           mt={8}
+          mb={12}
           textAlign="center"
           lineHeight="160%"
-          fontSize="24px"
+          fontSize={{base: "18px", lg: "24px"}}
           fontFamily="'Libre Baskerville', sans-serif"
-          width="692px"
+          width={{base: "291px", lg: "692px"}}
           alignSelf="center"
         >
           Our commitment to excellence leads us to collaborate with top industry professionals, ensuring your business achieves sustained growth and operational excellence.
@@ -67,7 +68,7 @@ export default function Work() {
           gap={12}
           p={{ base: 4, lg: 0 }}
         >
-          <Text mt={4} fontFamily='"Space Grotesk", sans-serif' fontSize="30px">Select Projects</Text>
+          <Text mt={4} fontFamily='"Space Grotesk", sans-serif' fontSize={{base: "24px", lg: "30px"}}>Select Projects</Text>
           <SimpleGrid templateColumns={{ base: '1fr', lg: '60% 40%' }} gap={{ base: 8, lg: 8 }}>
             <Stack>
               <Image borderRadius={4} src="https://wwd.com/wp-content/uploads/2023/08/ILI4375_CR.jpg" />

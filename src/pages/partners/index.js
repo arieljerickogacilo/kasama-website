@@ -91,7 +91,7 @@ export default function Partners() {
         justifyContent="center"
         alignItems="center"
         background={{
-          base: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 6%, #FEEFDB 17%, #FEEFDB 100%)",
+          base: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 2%, #FEEFDB 6%, #FEEFDB 100%)",
           lg: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 8%, #FEEFDB 25%, #FEEFDB 100%)"
         }}
       >

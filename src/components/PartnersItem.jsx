@@ -17,8 +17,7 @@ export default function PartnersItem({data}){
         mt="auto"
         transition="0.2s"
         as={Link}
-        href={data.company_link}
-        target="_blank"
+        href="/partners/shopify"
         fontSize="18px"
         border="1px solid #213047"
         backgroundColor="transparent"
