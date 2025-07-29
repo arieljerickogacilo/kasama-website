@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  const hideLayout = router.pathname === "/admin/blog-generator";
+  const hideLayout = router.pathname === "/tool/create-blog";
 
   return (
     <ChakraProvider>
