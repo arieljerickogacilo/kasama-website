@@ -40,7 +40,7 @@ export default function Footer(props) {
             We collaborate with ambitious brands and people.
           </Text>
           <Button
-            w={{base: "100%", lg: "50%"}}
+            w={{base: "100%", lg: "299px"}}
             rightIcon={<RxArrowRight />}
             fontSize="18px"
             fontFamily="'Space Grotesk', sans-serif"

@@ -70,14 +70,14 @@ export default function Work() {
         >
           <Text mt={4} fontFamily='"Space Grotesk", sans-serif' fontSize={{base: "24px", lg: "30px"}}>Select Projects</Text>
           <SimpleGrid templateColumns={{ base: '1fr', lg: '60% 40%' }} gap={{ base: 8, lg: 8 }}>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://wwd.com/wp-content/uploads/2023/08/ILI4375_CR.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Roots</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">
                 Roots Canada is a premium outdoor lifestyle brand known for its high-quality apparel, leather goods, and accessories inspired by Canadian heritage and nature. Founded in 1973, Roots combines craftsmanship with comfort, offering products that reflect a relaxed, active, and authentic lifestyle.
               </Text>
             </Stack>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://onetrackmind.bike/wp-content/uploads/2022/03/Bobcat_Image_Bike_GG.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Smith Optics</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">
@@ -86,14 +86,14 @@ export default function Work() {
             </Stack>
           </SimpleGrid>
           <SimpleGrid templateColumns={{ base: '1fr', lg: '40% 60%' }} gap={{ base: 8, lg: 8 }}>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://wwd.com/wp-content/uploads/2023/08/ILI4375_CR.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Roots</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">
                 Roots Canada is a premium outdoor lifestyle brand known for its high-quality apparel, leather goods, and accessories inspired by Canadian heritage and nature. Founded in 1973, Roots combines craftsmanship with comfort, offering products that reflect a relaxed, active, and authentic lifestyle.
               </Text>
             </Stack>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://onetrackmind.bike/wp-content/uploads/2022/03/Bobcat_Image_Bike_GG.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Smith Optics</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">
@@ -102,14 +102,14 @@ export default function Work() {
             </Stack>
           </SimpleGrid>
           <SimpleGrid templateColumns={{ base: '1fr', lg: '60% 40%' }} gap={{ base: 8, lg: 8 }}>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://wwd.com/wp-content/uploads/2023/08/ILI4375_CR.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Roots</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">
                 Roots Canada is a premium outdoor lifestyle brand known for its high-quality apparel, leather goods, and accessories inspired by Canadian heritage and nature. Founded in 1973, Roots combines craftsmanship with comfort, offering products that reflect a relaxed, active, and authentic lifestyle.
               </Text>
             </Stack>
-            <Stack>
+            <Stack as={Link} href="work/roots" cursor="pointer">
               <Image borderRadius={4} src="https://onetrackmind.bike/wp-content/uploads/2022/03/Bobcat_Image_Bike_GG.jpg" />
               <Text mt={4} fontFamily="'Libre Baskerville', sans-serif" fontSize="30px">Smith Optics</Text>
               <Text fontFamily="'Space Grotesk', sans-serif" fontSize="20px">

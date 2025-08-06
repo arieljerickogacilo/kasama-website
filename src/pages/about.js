@@ -15,7 +15,7 @@ export default function About() {
         alignItems="center"
         background={{
           base: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 0%, #FEEFDB 5%, #FEEFDB 100%)",
-          lg: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 2%, #FEEFDB 15%, #FEEFDB 100%)"
+          lg: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 5%, #FEEFDB 10%, #FEEFDB 100%)"
         }}
       >
         <Text

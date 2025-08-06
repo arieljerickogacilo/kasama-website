@@ -92,7 +92,7 @@ export default function Partners() {
         alignItems="center"
         background={{
           base: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 2%, #FEEFDB 6%, #FEEFDB 100%)",
-          lg: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 8%, #FEEFDB 25%, #FEEFDB 100%)"
+          lg: "linear-gradient(180deg, #F8D9D8 0%, #F8D9D8 4%, #FEEFDB 8%, #FEEFDB 100%)"
         }}
       >
         <Text
